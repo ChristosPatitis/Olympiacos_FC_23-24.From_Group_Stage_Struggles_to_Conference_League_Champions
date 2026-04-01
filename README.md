@@ -1,4 +1,4 @@
-Olympiacos FC 2023–2024: From Group Stage Struggles to Conference League Champions
+## Olympiacos FC 2023–2024: From Group Stage Struggles to Conference League Champions
 👉 Full analysis available in: notebooks/analysis.ipynb
 
 ---
