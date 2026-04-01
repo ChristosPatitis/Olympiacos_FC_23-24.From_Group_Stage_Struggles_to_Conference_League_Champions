@@ -1,0 +1,28 @@
+date,season,competition,opponent,venue,goals_for,goals_against,stage,source
+2023-09-21,2023-2024,Conference League,Freiburg,Home,2,3,Group Stage,UEFA
+2023-10-05,2023-2024,Conference League,TSC,Away,3,1,Group Stage,UEFA
+2023-10-26,2023-2024,Conference League,West Ham,Home,2,1,Group Stage,UEFA
+2023-11-09,2023-2024,Conference League,West Ham,Away,0,1,Group Stage,UEFA
+2023-11-30,2023-2024,Conference League,Freiburg,Away,0,5,Group Stage,UEFA
+2023-12-14,2023-2024,Conference League,TSC,Home,5,2,Group Stage,UEFA
+2024-02-15,2023-2024,Conference League,Ferencvaros,Away,1,0,Knockout,UEFA
+2024-02-22,2023-2024,Conference League,Ferencvaros,Home,1,0,Knockout,UEFA
+2024-03-07,2023-2024,Conference League,Maccabi Tel Aviv,Away,1,4,Knockout,UEFA
+2024-03-14,2023-2024,Conference League,Maccabi Tel Aviv,Home,6,1,Knockout,UEFA
+2024-04-11,2023-2024,Conference League,Fenerbahce,Home,3,2,Quarter Final,UEFA
+2024-04-18,2023-2024,Conference League,Fenerbahce,Away,0,1,Quarter Final,UEFA
+2024-05-02,2023-2024,Conference League,Aston Villa,Away,4,2,Semi Final,UEFA
+2024-05-09,2023-2024,Conference League,Aston Villa,Home,2,0,Semi Final,UEFA
+2024-05-29,2023-2024,Conference League,Fiorentina,Neutral,1,0,Final,UEFA
+2023-08-21,2023-2024,Super League,Panserraikos,Home,2,0,Regular Season,SLGR
+2023-08-27,2023-2024,Super League,Atromitos,Away,4,0,Regular Season,SLGR
+2023-09-03,2023-2024,Super League,Lamia,Home,4,0,Regular Season,SLGR
+2023-09-17,2023-2024,Super League,AEK Athens,Away,1,1,Regular Season,SLGR
+2023-09-24,2023-2024,Super League,Kifisia,Home,4,0,Regular Season,SLGR
+2023-10-01,2023-2024,Super League,PAS Giannina,Away,3,0,Regular Season,SLGR
+2023-10-08,2023-2024,Super League,OFI,Home,4,0,Regular Season,SLGR
+2023-10-22,2023-2024,Super League,Panathinaikos,Away,0,3,Regular Season,SLGR
+2023-10-30,2023-2024,Super League,PAOK,Home,2,4,Regular Season,SLGR
+2023-11-05,2023-2024,Super League,Asteras Tripolis,Away,2,0,Regular Season,SLGR
+2023-11-12,2023-2024,Super League,Volos,Home,5,1,Regular Season,SLGR
+2023-11-26,2023-2024,Super League,Aris,Away,1,1,Regular Season,SLGR
