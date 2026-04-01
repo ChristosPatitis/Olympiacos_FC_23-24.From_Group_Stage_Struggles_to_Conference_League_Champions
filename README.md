@@ -1,5 +1,4 @@
-# Olympiacos FC: Greece vs Europe Performance Analysis (2023–2024)
-
+Olympiacos FC 2023–2024: From Group Stage Struggles to Conference League Champions
 👉 Full analysis available in: notebooks/analysis.ipynb
 
 ---
