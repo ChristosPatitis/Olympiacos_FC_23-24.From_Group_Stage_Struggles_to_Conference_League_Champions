@@ -1,26 +1,23 @@
-# Olympiacos FC 2023–2024: From Group Stage Struggles to Conference League Champions
-
-👉 Full analysis available in:
-- notebooks/analysis.ipynb
-- notebooks/players_analysis.ipynb
+## Olympiacos FC 2023–2024: From Group Stage Struggles to Conference League Champions
+👉 Full analysis available in: notebooks/analysis.ipynb
 
 ---
 
 ## 📊 Project Overview
 
-In this project, I analyzed Olympiacos’ 2023–2024 season, focusing on their Conference League-winning campaign.
+In this project, I analyzed Olympiacos’ 2023–2024 season to understand how the team performed in domestic competitions compared to European matches.
 
-The goal was to understand how the team performed across domestic and European competitions, how performance evolved during the season, and which players played a key role in the team’s success.
+The main goal was to explore performance differences between Greece and Europe, and to understand how the team evolved during their Conference League-winning campaign.
 
 ---
 
 ## 🎯 What I wanted to find out
 
-- How does performance differ between Greece and Europe?
+- Does Olympiacos perform better in Greece or in Europe?
 - How important is home advantage?
-- Did the team improve in knockout matches?
-- Was there a key turning point in the season?
-- Which players had the biggest impact?
+- Are there differences in attacking and defensive performance?
+- Did the team improve during the knockout stages?
+- Was there a key match that changed the season?
 
 ---
 
@@ -34,118 +31,86 @@ The goal was to understand how the team performed across domestic and European c
 
 ## 📂 Dataset
 
-The project uses two main datasets:
+I created the dataset manually using match-level data from:
 
-### Match Data
-- Super League Greece matches
-- UEFA Conference League matches  
-Includes:
-- date, competition, opponent
-- venue (home/away)
+- Super League Greece (domestic matches)
+- UEFA Conference League (European matches)
+
+Each row represents one match and includes:
+- date
+- competition
+- opponent
+- venue (home / away / neutral)
 - goals scored and conceded
 - match stage
 
-### Player Data
-- UEFA List A squad (knockout phase)
-- Includes:
-  - appearances
-  - minutes played
-  - goals
-  - assists
-
-Player stats are simplified and used to support high-level analysis of contributions.
-
 ---
 
-## 📈 Key Analysis
+## 📈 What the analysis shows
 
 ### Greece vs Europe
 
-- Olympiacos achieved the same win rate (66.7%) in both competitions.
-- The team scored more goals domestically.
-- Defensive performance was stronger in Greece.
+- Olympiacos had the same win rate (66.7%) in both competitions.
+- The team scored more goals on average in domestic matches.
+- Defensively, the team was much more stable in Greece.
 - European matches were more challenging and less predictable.
 
 ---
 
 ### Home vs Away
 
-- Strong home performance in both competitions.
-- European away matches were the most difficult.
-- Domestic away performance remained relatively stable.
+- The team performed significantly better at home in both competitions.
+- In Europe, away matches were clearly more difficult, with fewer goals scored and more conceded.
+- In Greece, performance stayed relatively consistent even away from home.
 
 ---
 
 ### Group Stage vs Knockout
 
-- Group stage was inconsistent (50% win rate).
-- Knockout phase showed clear improvement (75% win rate).
-- The team became more defensively solid and efficient.
-- Best performances occurred in later stages of the competition.
+- The group stage was more inconsistent, with a lower win rate and more goals conceded.
+- Performance improved in the knockout rounds, especially defensively.
+- The team became more effective as the competition progressed.
+- The best performances came in the semi-finals and final.
 
 ---
 
 ### Key Match (Turning Point)
 
-- The 6–1 win against Maccabi Tel Aviv was the turning point.
-- After losing 4–1 in the first leg, Olympiacos made a major comeback.
-- This result shifted momentum and confidence.
-- The team continued with strong performances and won the final.
+- The 6–1 win against Maccabi Tel Aviv was the turning point of the season.
+- After losing 4–1 in the first leg, Olympiacos made a huge comeback under pressure.
+- This result changed the team’s momentum and confidence.
+- After that, the team performed strongly and went on to win the final.
 
 ---
 
-### Player Analysis
+## 🧠 Key takeaways
 
-- El Kaabi was the standout player, leading in goals and overall contribution.
-- Fortounis combined scoring and creativity through goals and assists.
-- Podence contributed consistently in attack.
-- Player contribution was concentrated among a small core group.
-
----
-
-### Key Players by Position
-
-| Position   | Player      | Role |
-|-----------|------------|------|
-| Goalkeeper | Tzolakis   | Stability and key saves in knockout matches |
-| Defender   | Rodinei    | Defensive consistency and attacking support |
-| Midfielder | Fortounis  | Creativity, goals and assists |
-| Forward    | El Kaabi   | Top scorer and decisive performances |
-
----
-
-## 🧠 Key Takeaways
-
-- Olympiacos achieved equal success in Greece and Europe, but in different ways.
+- Olympiacos achieved the same level of success in Greece and Europe, but in different ways.
 - Domestic matches were more stable and defensively strong.
-- European matches required adaptability and resilience.
-- Performance improved significantly in knockout stages.
-- Success was driven by both team structure and key individual performances.
+- European matches were tougher and required more adaptability.
+- The team improved significantly in high-pressure knockout games.
+- Home advantage played a much bigger role in European matches.
 
 ---
 
-## 📌 Final Thoughts
+## 📌 Final thoughts
 
 This season shows how a team can combine domestic consistency with European resilience.
 
-Olympiacos improved over time, adapted to stronger competition, and delivered in key moments — ultimately winning the Conference League.
+Even though performances varied, Olympiacos adapted, improved, and delivered when it mattered most — ultimately winning the Conference League.
 
 ---
 
-## 📎 Project Structure
+## 📎 Project structure
 
 olympiacos-greece-vs-europe-analysis/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── olympiacos_matches_raw.csv
-│   │   └── olympiacos_players_2023_2024.csv
 │   └── cleaned/
-│       └── olympiacos_matches_clean.csv
 │
 ├── notebooks/
-│   ├── analysis.ipynb
-│   └── players_analysis.ipynb
+│   └── analysis.ipynb
 │
 ├── src/
 │   └── build_dataset.py
@@ -155,15 +120,15 @@ olympiacos-greece-vs-europe-analysis/
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future improvements
 
-- Extend analysis to multiple seasons
-- Include Greek Cup matches
-- Add more detailed player statistics
+- Add full league season data
+- Include Greek Cup analysis
+- Add player-level statistics
 - Build an interactive dashboard (Tableau / Power BI)
 
 ---
 
 ## 👤 Author
 
-YOUR NAME HERE
+Christos   Patitis
