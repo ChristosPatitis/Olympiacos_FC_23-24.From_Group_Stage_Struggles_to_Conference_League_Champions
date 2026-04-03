@@ -6,6 +6,15 @@
 
 ---
 
+## 📊 Interactive Dashboard
+
+Explore the interactive Tableau dashboard:
+
+👉 https://public.tableau.com/app/profile/christos.patitis/viz/olympiakos-project/Dashboard1
+
+![Dashboard Preview](assets/dashboard_preview.png)
+---
+
 ## 📊 Project Overview
 
 In this project, I analyzed Olympiacos’ 2023–2024 season, focusing on their Conference League-winning campaign.
@@ -29,6 +38,7 @@ The goal was to understand how the team performed across domestic and European c
 - Python (pandas, matplotlib)
 - Jupyter Notebook
 - Git & GitHub
+- Tableau (for dashboard visualization)
 
 ---
 
@@ -150,6 +160,10 @@ olympiacos-greece-vs-europe-analysis/
 ├── src/
 │   └── build_dataset.py
 │
+├── dashboard/
+│   ├── olympiakos-project.twbx
+│   └── your-screenshot-name.png
+│
 ├── README.md
 └── requirements.txt
 
@@ -160,7 +174,7 @@ olympiacos-greece-vs-europe-analysis/
 - Extend analysis to multiple seasons
 - Include Greek Cup matches
 - Add more detailed player statistics
-- Build an interactive dashboard (Tableau / Power BI)
+- Enhance dashboard interactivity and storytelling
 
 ---
 
